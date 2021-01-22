@@ -1,0 +1,104 @@
+/*global css*/
+section{
+    max-width: 1200px;
+    margin: auto;
+}
+h1{
+    font-family: 'raleway';
+    font-size: 40px;
+}
+h2{
+    font-family: 'Raleway';
+}
+span{
+    color: cyan;
+}
+p{
+    font-family: 'raleway';
+    font-size: 20px;
+}
+/*global css end*/
+
+/*menu design here*/
+.menu a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'raleway';
+}
+.menu a{
+    overflow: hidden;
+    float: right;
+}
+.menu{
+    margin-right: 5%;
+}
+/*menu design end here*/
+
+/*hero design*/
+.half-width{
+    max-width: 40%;
+    margin-left: 5%;
+    padding: 5%;
+    float: left;
+    overflow: hidden;
+}
+.clickMe{
+    padding: 10px 20px;
+    background-color: cyan;
+    font-family: 'Raleway';
+    text-decoration: none;
+    border-radius: 5%;
+}
+.clickMe:hover{
+    background-color: black;
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+/*hero design end here*/
+
+/*Body Design*/
+.half-body-width{
+    max-width: 30%;
+    float: left;
+    margin-left: 10%;
+    padding: 5%;
+    overflow: hidden;
+}
+.recent-works{
+    max-width: 80%;
+}
+.recent-image{
+    text-align: center;
+}
+.recent-image .images{
+    max-width: 20%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.images{
+    border-radius: 10px;
+    box-shadow: 0px 1px 20px grey;
+}
+.letsChat{
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding-top: 50px;
+}
+/*Body Design End here*/
+
+/*Footer*/
+footer{
+    margin: 50px;
+    text-align: center;
+}
+/*Footer*/
